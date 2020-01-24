@@ -1,10 +1,10 @@
-# otenki-req10 パッケージ （reqwest 0.10使用）
+# otenki-req010 パッケージ （reqwest 0.10使用）
 
 このCargoパッケージには「Weather Hacks お天気サービス」から東京の天気予報を取得するプログラムが収められています。
 （ごく簡単なプログラムです）　
 Part 1の図1で紹介したプログラムを、reqwestクレートのバージョン0.10に対応させたものです。
 
-このプログラムが掲載された雑誌についての情報は、本リポジトリのトップにある [README.md][top] をご覧ください。
+このプログラムが掲載された雑誌については、本リポジトリのトップにある [README.md][top] をご覧ください。
 
 [top]: ../README.md
 
@@ -25,12 +25,9 @@ reqwestはこのバージョンから`async/.await`に対応しただけでな�
 | socks | SOCKS5プロキシをサポート |
 
 その他にもHTTPS接続に必要なTLSの実装を切り替えるfeatureなどが用意されています。
-詳しくはReqwestのドキュメントの「Optional Features」の項を参照してください。
+詳しくはReqwestのドキュメントの「[Optional Features][reqwest-features]」の項を参照してください。
 
-本パッケージ（otenki-req09）の内容をreqwest 0.10向けに変更したものを [otenki-req010][otenki-req010] パッケージとして用意してあります。
-そちらもご覧ください。
-
-[otenki-req010]: ../otenki-req010
+[reqwest-features]: https://docs.rs/reqwest/0.10.1/reqwest/#optional-features
 
 ## プログラムの変更点
 
