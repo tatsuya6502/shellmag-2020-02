@@ -57,8 +57,8 @@ src/
 
 ```console
 # src/bin配下にある製作途中のプログラムを実行するなら
-$ cargo run --release --bin main01  # → src/bin/main1.rsがコンパイル・実行される
+$ cargo run --release --bin main01 -- CSVファイル  # → src/bin/main1.rsがコンパイル・実行される
 
 # src直下にある完成したプログラムを実行するなら
-$ cargo run --release --bin trip-analyzer
+$ cargo run --release --bin trip-analyzer -- CSVファイル
 ```
